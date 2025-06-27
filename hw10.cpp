@@ -22,7 +22,7 @@ void command_line_parse(char *cli_command_buff, uint8_t cli_buff_size,
         cli_command_args[*cli_command_num_args] = token;
         *cli_command_num_args = *cli_command_num_args + 1;
         token = strtok(NULL, " ");
-    }
+    }  
 
 }
 
