@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #define FOR(i, x, y) for(int i = x;i <=y; i++)
 #define RE(i, x, y) for(int i = y; i>= x;i --)
 #define maxN 100
