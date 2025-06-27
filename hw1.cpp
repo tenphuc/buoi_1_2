@@ -34,7 +34,7 @@ int arr_coppy(int *arr1, int *arr2, int arr_size)
     FOR(i, 0, arr_size - 1)
     {
         arr2[i] = arr1[i];
-        //hello
+        // hello hello
     }
     return 0;
 }
